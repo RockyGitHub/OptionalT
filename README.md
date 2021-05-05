@@ -1,6 +1,6 @@
 A class inspired by aarthificial's video on the Optional pattern in struct form: https://www.youtube.com/watch?v=uZmWgQ7cLNI
 
-With this class, you can check for `Enabled` in an `Update()` loop or whatever you want to effectively test for `GameObject == null`, because Enabled will be set to false when the GameObject is destroyed
+With this class, you can check for `Enabled` in an `Update()` loop or whatever you want to effectively test for `GameObject == null`, because Enabled will be set to false when the GameObject is destroyed.  This still has some holes in it you intend to use it to safegaurd against all types of == null checks...
 
 This relies on calling `Initialize()` on the Optional object to setup the OnDestroy callback..
 

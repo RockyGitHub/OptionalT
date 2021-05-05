@@ -18,7 +18,7 @@ This relies on calling `Initialize()` on the Optional object to setup the OnDest
 
 Otherwise, this is what the `OptionalObject` Looks like.
 
-```
+```cs
     [Serializable]
     public class OptionalObject<T>
     {
